@@ -1,70 +1,62 @@
-import Image from 'next/image'
-
 import { Container } from '@/components/Container'
+import Image from 'next/image'
 import avatarImage1 from '@/images/avatars/avatar-1.png'
 import avatarImage2 from '@/images/avatars/avatar-2.png'
 import avatarImage3 from '@/images/avatars/avatar-3.png'
 import avatarImage4 from '@/images/avatars/avatar-4.png'
 import avatarImage5 from '@/images/avatars/avatar-5.png'
 
+// Replace the existing testimonials array with the one given below
+
 const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Forensic Global has transformed how we manage our finances. As a small business, their personal touch and expert advice have been invaluable.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
-        image: avatarImage1,
+        name: 'Jasmine Yuen',
+        role: 'Owner at Boutique',
+        image: avatarImage1, // Replace with the actual image path or URL
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Working with Forensic Global has given me peace of mind. As a freelancer, understanding the nuances of taxes was daunting, but they made it clear and simple.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
-      },
-    },
-  ],
-  [
-    {
-      content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
-      author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
-        image: avatarImage5,
-      },
-    },
-    {
-      content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
-      author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
-        image: avatarImage2,
+        name: 'Lucas Mendes',
+        role: 'Freelance Graphic Designer',
+        image: avatarImage2, // Replace with the actual image path or URL
       },
     },
   ],
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'Forensic Global has been a game-changer for our operations. Their accounting services have helped us streamline our processes and save significant time and money.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
-        image: avatarImage3,
+        name: 'Rina Patel',
+        role: 'COO at Fake Company',
+        image: avatarImage3, // Replace with the actual image path or URL
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'As our business grew, so did the complexity of our financial needs. Forensic Global met every challenge and provided solutions that scaled with us. Truly a partner for growth!',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Mike Dawson',
+        role: 'CEO at Fake Company',
+        image: avatarImage4, // Replace with the actual image path or URL
+      },
+    },
+  ],
+  [
+    {
+      content:
+        'The attention to detail and the thoroughness of Forensic Global are unmatched. They have helped us navigate complex tax regulations with ease.',
+      author: {
+        name: 'Samantha Lee',
+        role: 'CFO at Fake Company',
+        image: avatarImage5, // Replace with the actual image path or URL
       },
     },
   ],
@@ -88,12 +80,11 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Loved by our customers, personal or business.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Our customers range from small business owners to large corporations
+            and they all love the simplicity of handling their taxes with us.
           </p>
         </div>
         <ul

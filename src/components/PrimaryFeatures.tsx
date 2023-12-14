@@ -1,41 +1,39 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
-import { Tab } from '@headlessui/react'
-import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import Image from 'next/image'
+import { Tab } from '@headlessui/react'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import bookKeeping from '@/images/screenshots/book-keeping.jpg'
+import clsx from 'clsx'
+import gst from '@/images/screenshots/gst.jpg'
+import screenshotPayroll from '@/images/screenshots/payroll.jpg'
+import taxTime from '@/images/screenshots/tax-time.jpg'
 
-const features = [
+const services = [
   {
     title: 'Payroll',
-    description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+    description: 'Pay your employees and DAS.',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Book Keeping',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      'Manage your daily transactions, Accounting virtual assitance, Acconting system set-up, Tax planning, Consulting and Compliance.',
+    image: bookKeeping,
   },
   {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+    title: 'GST/QST',
+    description: 'File remittances online.',
+    image: gst,
   },
   {
-    title: 'Reporting',
+    title: 'Taxes',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Personal and corporate taxes? We have a great accountant who can help you with that.',
+    image: taxTime,
   },
 ]
 
@@ -61,8 +59,8 @@ export function PrimaryFeatures() {
 
   return (
     <section
-      id="features"
-      aria-label="Features for running your books"
+      id="services"
+      aria-label="Services Foresics Global provide"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
       <Image
@@ -79,8 +77,8 @@ export function PrimaryFeatures() {
             Everything you need to run your books.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            We at Forensic Global are here to help you with your book keeping
+            and accounting needs.
           </p>
         </div>
         <Tab.Group
@@ -92,7 +90,7 @@ export function PrimaryFeatures() {
             <>
               <div className="-mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5">
                 <Tab.List className="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
-                  {features.map((feature, featureIndex) => (
+                  {services.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
                       className={clsx(
@@ -130,7 +128,7 @@ export function PrimaryFeatures() {
                 </Tab.List>
               </div>
               <Tab.Panels className="lg:col-span-7">
-                {features.map((feature) => (
+                {services.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />

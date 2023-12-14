@@ -1,58 +1,61 @@
-import Image from 'next/image'
-
 import { Container } from '@/components/Container'
+import Image from 'next/image'
 import backgroundImage from '@/images/background-faqs.jpg'
 
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Can Forensic Global take care of VAT and GST/QST filings?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Yes, our expert team can handle all your VAT and GST/QST filing requirements, ensuring timely and accurate submissions.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Do you offer different payment methods for your services?',
+      answer:
+        'Definitely! We understand the importance of convenience in financial matters, so we accept various payment methods, including purchase orders.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'How can I start a career with Forensic Global?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        "We're always on the lookout for passionate individuals to join our team. Please visit our careers page or send us your resume directly if you're interested in working with us.",
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question:
+        'What type of assistance can Forensic Global provide for bookkeeping?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'From managing daily transactions to offering virtual accounting assistance and setting up accounting systems, we do it all. We also provide tax planning, consulting, and compliance services.',
+    },
+    {
+      question: 'Does Forensic Global assist with payroll processing?',
+      answer:
+        'Absolutely, our comprehensive payroll services ensure that your employees and associated statutory requirements like DAS are managed effectively.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'In case of a tax inquiry, how does Forensic Global support its clients?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
-    },
-    {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'Should you face any tax-related inquiries or audits, our team of experts will stand with you providing the necessary documentation and guidance throughout the process.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question:
+        'How does Forensic Global help with personal and corporate taxes?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'Our experienced accountants can help you navigate the complexities of both personal and corporate taxes, offering advice and strategies to minimize liabilities and ensure compliance.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'What happens if I lose my password to your client portal?',
+      answer:
+        'No worries! Just reach out to our support team, and we’ll assist you with a secure process to reset your password and regain access to your account.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question:
+        'How can I ensure my financial reporting is accurate and reliable?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Our team uses state-of-the-art software combined with expert oversight to generate precise and comprehensive reports. You can count on our reports to reflect the true financial state of your business.',
     },
   ],
 ]
@@ -82,7 +85,7 @@ export function Faqs() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            and we will get back to you as soon as possible.
           </p>
         </div>
         <ul

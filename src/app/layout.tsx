@@ -6,11 +6,11 @@ import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Foresics Global',
+    default: 'Foresics Global - Accounting made simple for small businesses',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Foresics Global has years of experience in providing accounting services to small businesses. We are passionate about helping small businesses grow.',
 }
 
 const inter = Inter({

@@ -8,10 +8,24 @@ function Label({ id, children }: { id: string; children: React.ReactNode }) {
   return (
     <label
       htmlFor={id}
-      className="mb-3 block text-sm font-medium text-gray-700"
+      className="mb-2 block text-sm font-medium text-gray-700"
     >
       {children}
     </label>
+  )
+}
+
+export function TextArea({
+  label,
+  className,
+}: Omit<React.ComponentPropsWithoutRef<'input'>, 'id'> & { label: string }) {
+  let id = useId()
+
+  return (
+    <div className={className}>
+      {label && <Label id={id}>{label}</Label>}
+      <textarea id={id} className={`${formClasses} h-40`} />
+    </div>
   )
 }
 

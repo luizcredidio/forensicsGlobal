@@ -1,20 +1,12 @@
-export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
-  return (
-    <svg
-      version="1.0"
-      xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
-      viewBox="100 100 1100 800"
-      preserveAspectRatio="xMidYMid meet"
-    >
-      <g
-        transform="translate(0.000000,1000.000000) scale(0.100000,-0.100000)"
-        fill="#2563eb"
-        stroke="none"
-      >
-        <path
-          d="M6500 8486 c-64 -18 -71 -22 -760 -419 -1633 -941 -1999 -1153 -2047
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1320.000000pt" height="1000.000000pt" viewBox="0 0 1320.000000 1000.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,1000.000000) scale(0.100000,-0.100000)" stroke="none">
+<path d="M6500 8486 c-64 -18 -71 -22 -760 -419 -1633 -941 -1999 -1153 -2047
 -1186 -95 -67 -153 -162 -172 -281 -15 -89 -15 -3109 -1 -3200 19 -119 84
 -221 185 -289 22 -16 148 -90 280 -166 311 -179 269 -155 1405 -810 536 -309
 998 -574 1026 -588 75 -38 172 -52 253 -38 82 15 107 28 721 382 1771 1022
@@ -30,9 +22,6 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
 2 342 2 3 881 2 881 -77 58 c-43 32 -82 62 -88 66 -5 5 157 9 368 9 l377 0 0
 -1285 0 -1285 -732 0 c-799 0 -807 1 -911 58 -105 57 -183 167 -207 291 -7 35
 -10 683 -10 1890 0 1598 2 1844 15 1894 40 155 138 261 283 308 53 17 97 18
-652 16 l595 -2 70 -34z"
-        />
-      </g>
-    </svg>
-  )
-}
+652 16 l595 -2 70 -34z"/>
+</g>
+</svg>

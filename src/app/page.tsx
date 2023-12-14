@@ -18,7 +18,7 @@ export default function Home() {
         <SecondaryFeatures />
         <CallToAction />
         <Testimonials />
-        <Pricing />
+        {/* <Pricing /> */} {/* Add pricing if requested */}
         <Faqs />
       </main>
       <Footer />
