@@ -29,15 +29,15 @@ export function Hero() {
         We help you keep track of your finances so you can focus on what
         matters.
       </p>
-      <div className="mx-auto flex max-w-min justify-start gap-10 whitespace-nowrap">
-        <span className="mt-6 flex gap-4">
+      <div className="mx-auto flex flex-col items-center justify-start gap-10 overflow-x-auto text-left md:flex-row">
+        <span className="mt-6 flex w-full gap-4 px-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="h-6 w-6"
+            className="h-6 min-h-6 w-6 min-w-6"
           >
             <path
               strokeLinecap="round"
@@ -52,14 +52,14 @@ export function Hero() {
           </svg>
           Montreal, QC, Canada
         </span>
-        <span className="mt-6 flex gap-4">
+        <span className="mt-6 flex w-full gap-4 px-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="h-6 w-6"
+            className="h-6 min-h-6 w-6 min-w-6"
           >
             <path
               strokeLinecap="round"
@@ -74,14 +74,14 @@ export function Hero() {
           </svg>
           Ontario, Canada
         </span>
-        <span className="mt-6 flex gap-4">
+        <span className="mt-6 flex w-full gap-4 px-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="h-6 w-6"
+            className="h-6 min-h-6 w-6 min-w-6"
           >
             <path
               strokeLinecap="round"
@@ -91,14 +91,14 @@ export function Hero() {
           </svg>
           Associate Chartered Accountant (ACA)
         </span>
-        <span className="mt-6 flex gap-4">
+        <span className="mt-6 flex w-full gap-4 px-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="h-6 w-6"
+            className="h-6 min-h-6 w-6 min-w-6"
           >
             <path
               strokeLinecap="round"
@@ -109,7 +109,7 @@ export function Hero() {
           Canada Tax Specialist
         </span>
       </div>
-      <div className="mt-16 flex justify-center gap-x-24">
+      <div className="mt-16 flex flex-col justify-center gap-4 sm:flex-row sm:gap-x-24">
         <Button href="/contact-us">Get a quote</Button>
         <Button href="#services" variant="outline">
           <svg
@@ -118,7 +118,7 @@ export function Hero() {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="h-6 w-6"
+            className="h-6 min-h-6 w-6 min-w-6"
           >
             <path
               strokeLinecap="round"
