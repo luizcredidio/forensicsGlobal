@@ -22,71 +22,40 @@ export default function Register() {
         Have a question? We’re here to help.
       </h2>
       <p className="mt-2 text-sm text-gray-700">
-        Send us an email and we’ll get back to you as soon as possible.
+        Contact us and we’ll get back to you as soon as possible.
       </p>
-      <form
-        action="#"
-        className="mt-8 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2"
-      >
-        <TextField
-          label="First name"
-          name="first_name"
-          type="text"
-          autoComplete="given-name"
-          required
-        />
-        <TextField
-          label="Last name"
-          name="last_name"
-          type="text"
-          autoComplete="family-name"
-          required
-        />
-        <TextField
-          className="col-span-full"
-          label="Email address"
-          name="email"
-          type="email"
-          autoComplete="email"
-          required
-        />
-        <TextField
-          className="col-span-full"
-          label="Phone number"
-          name="phone number"
-          type="tel"
-          autoComplete="tel"
-          required
-        />
-        <SelectField
-          className="col-span-full"
-          label="How can we help you?"
-          name="message_type"
-        >
-          <option>Taxes: Personal and Corporate (Canada)</option>
-          <option>Accounting: Preparation of Compilation Reports</option>
-          <option>Managment of your daily transactions</option>
-          <option>Accounting Virtual Assistance</option>
-          <option>Accounting System Set-up</option>
-          <option>Tax planning, Consulting and Compliance</option>
-          <option>GST/QST: File remittances online</option>
-          <option>Payroll: Pay your employees and DAS</option>
-        </SelectField>
-        <TextArea
-          className="col-span-full"
-          label="Message"
-          name="message"
-          type="text"
-          required
-        />
-        <div className="col-span-full">
-          <Button type="submit" variant="solid" color="blue" className="w-full">
-            <span>
-              Let&apos;s talk <span aria-hidden="true">&rarr;</span>
-            </span>
-          </Button>
+      <div className="bg-white py-24 sm:py-32">
+        <div className="max-w-7xl">
+          <div className=" max-w-2xl lg:mx-0 lg:max-w-none">
+            <div className="rounded-2xl bg-gray-50 p-10">
+              <h3 className="text-xl font-semibold leading-7 text-gray-900">
+                Contact Information
+              </h3>
+              <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <div>
+                  <dt className="sr-only">Email</dt>
+                  <dd>
+                    <a
+                      className="text-base font-semibold text-indigo-600"
+                      href="mailto:francisdeleoke@gmail.com"
+                    >
+                      francisdeleoke@gmail.com
+                    </a>
+                  </dd>
+                </div>
+                <div className="mt-1">
+                  <dt className="sr-only">Phone number</dt>
+                  <dd>
+                    <a className="text-base" href="tel:+15149267822">
+                      +1 (514) 926-7822
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
         </div>
-      </form>
+      </div>
     </SlimLayout>
   )
 }
