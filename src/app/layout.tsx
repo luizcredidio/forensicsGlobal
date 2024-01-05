@@ -7,10 +7,11 @@ import { type Metadata } from 'next'
 export const metadata: Metadata = {
   title: {
     template: '%s - Foresics Global',
-    default: 'Foresics Global - Accounting made simple for small businesses',
+    default:
+      'Foresics Global - Accounting made simple for small businesses, freelancers, and contractors',
   },
   description:
-    'Foresics Global has years of experience in providing accounting services to small businesses. We are passionate about helping small businesses grow.',
+    'Foresics Global has years of experience in providing accounting services to small businesses, freelancers, and contractors. We are passionate about helping you grow your business and achieve your goals.',
 }
 
 const inter = Inter({
