@@ -37,17 +37,17 @@ export default function Register() {
                   <dd>
                     <a
                       className="text-base font-semibold text-indigo-600"
-                      href="mailto:francisdeleoke@gmail.com"
+                      href="mailto:forensicimpot@gmail.com"
                     >
-                      francisdeleoke@gmail.com
+                      forensicimpot@gmail.com
                     </a>
                   </dd>
                 </div>
                 <div className="mt-1">
                   <dt className="sr-only">Phone number</dt>
                   <dd>
-                    <a className="text-base" href="tel:+15149267822">
-                      +1 (514) 926-7822
+                    <a className="text-base" href="tel:+14388030923">
+                      +1 (438) 803-0923
                     </a>
                   </dd>
                 </div>
