@@ -55,7 +55,7 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Paylroll',
+    name: 'Payroll',
     summary:
       'Forget about stressing over payroll, we’ll take care of it for you.',
     description:
@@ -78,7 +78,7 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Bussiness Taxes',
+    name: 'Business Taxes',
     summary:
       'We’ll make sure you’re always on top of your taxes and that you never miss a deadline.',
     description:

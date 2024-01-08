@@ -14,8 +14,8 @@ const testimonials = [
       content:
         'Forensic Global has transformed how we manage our finances. As a small business, their personal touch and expert advice have been invaluable.',
       author: {
-        name: 'Jasmine Yuen',
-        role: 'Owner at Boutique',
+        name: "La'Palais Royale D'abi",
+        role: 'Event Planing company',
         image: avatarImage1, // Replace with the actual image path or URL
       },
     },
@@ -23,8 +23,8 @@ const testimonials = [
       content:
         'Working with Forensic Global has given me peace of mind. As a freelancer, understanding the nuances of taxes was daunting, but they made it clear and simple.',
       author: {
-        name: 'Lucas Mendes',
-        role: 'Freelance Graphic Designer',
+        name: 'General freight',
+        role: 'Trucking Company',
         image: avatarImage2, // Replace with the actual image path or URL
       },
     },
@@ -34,8 +34,8 @@ const testimonials = [
       content:
         'Forensic Global has been a game-changer for our operations. Their accounting services have helped us streamline our processes and save significant time and money.',
       author: {
-        name: 'Rina Patel',
-        role: 'COO at Fake Company',
+        name: '9474-5304 Québec Inc.',
+        role: '',
         image: avatarImage3, // Replace with the actual image path or URL
       },
     },
@@ -43,8 +43,8 @@ const testimonials = [
       content:
         'As our business grew, so did the complexity of our financial needs. Forensic Global met every challenge and provided solutions that scaled with us. Truly a partner for growth!',
       author: {
-        name: 'Mike Dawson',
-        role: 'CEO at Fake Company',
+        name: '9474-7219 Québec Inc.',
+        role: '',
         image: avatarImage4, // Replace with the actual image path or URL
       },
     },
@@ -54,8 +54,8 @@ const testimonials = [
       content:
         'The attention to detail and the thoroughness of Forensic Global are unmatched. They have helped us navigate complex tax regulations with ease.',
       author: {
-        name: 'Samantha Lee',
-        role: 'CFO at Fake Company',
+        name: '9472-7260 QUEBEC INC.',
+        role: '',
         image: avatarImage5, // Replace with the actual image path or URL
       },
     },
