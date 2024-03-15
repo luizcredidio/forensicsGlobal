@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from '@/components/Container'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
@@ -8,13 +10,13 @@ export function Footer() {
     <footer className="bg-slate-50">
       <Container>
         <div className="py-16">
-          <Link href="/" className="mx-auto" aria-label="Home">
+          <div className="mx-auto" aria-label="Home">
             <Logo className="h-10 w-auto" />
-          </Link>
+          </div>
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#services">Services</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
+              <NavLink href="/#services">Services</NavLink>
+              <NavLink href="/#testimonials">Testimonials</NavLink>
               <NavLink href="/contact-us">Contact Us</NavLink>
             </div>
           </nav>
@@ -42,6 +44,11 @@ export function Footer() {
             rights reserved.
           </p>
         </div>
+        <p className="my-6 text-sm text-slate-500 sm:mt-0">
+          Need a website? Contact me at{' '}
+          <a href="mailto:lcredidio.dev@gmail.com">lcredidio.dev@gmail.com</a>{' '}
+          to discuss your project!
+        </p>
       </Container>
     </footer>
   )

@@ -104,7 +104,7 @@ export function Hero() {
       </div>
       <div className="mt-16 flex flex-col justify-center gap-4 sm:flex-row sm:gap-x-24">
         <Button href="/contact-us">Get a quote</Button>
-        <Button href="#services" variant="outline">
+        <Button href="/#services" variant="outline">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

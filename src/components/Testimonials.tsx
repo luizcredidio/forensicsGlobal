@@ -16,7 +16,6 @@ const testimonials = [
       author: {
         name: "La'Palais Royale D'abi",
         role: 'Event Planing company',
-        image: avatarImage1, // Replace with the actual image path or URL
       },
     },
     {
@@ -25,7 +24,6 @@ const testimonials = [
       author: {
         name: 'General freight',
         role: 'Trucking Company',
-        image: avatarImage2, // Replace with the actual image path or URL
       },
     },
   ],
@@ -36,7 +34,6 @@ const testimonials = [
       author: {
         name: '9474-5304 Québec Inc.',
         role: '',
-        image: avatarImage3, // Replace with the actual image path or URL
       },
     },
     {
@@ -45,7 +42,6 @@ const testimonials = [
       author: {
         name: '9474-7219 Québec Inc.',
         role: '',
-        image: avatarImage4, // Replace with the actual image path or URL
       },
     },
   ],
@@ -56,7 +52,6 @@ const testimonials = [
       author: {
         name: '9472-7260 QUEBEC INC.',
         role: '',
-        image: avatarImage5, // Replace with the actual image path or URL
       },
     },
   ],
@@ -111,15 +106,6 @@ export function Testimonials() {
                           <div className="mt-1 text-sm text-slate-500">
                             {testimonial.author.role}
                           </div>
-                        </div>
-                        <div className="overflow-hidden rounded-full bg-slate-50">
-                          <Image
-                            className="h-14 w-14 object-cover"
-                            src={testimonial.author.image}
-                            alt=""
-                            width={56}
-                            height={56}
-                          />
                         </div>
                       </figcaption>
                     </figure>
